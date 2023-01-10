@@ -17,3 +17,8 @@ services:
     restart: unless-stopped
     security_opt:
       - no-new-privileges:true
+      
+networks:
+  default:
+    name: it-primary
+    external: true 
