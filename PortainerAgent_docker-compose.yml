@@ -12,5 +12,5 @@ services:
 
 networks:
   default:
-    name: it-primary
+    name: primary-network
     external: true
